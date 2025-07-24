@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future Map</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="whole-page" >
+        <div class="menu-bar">
+            <div class="heading">
+            <img src="images\logo.jpg" class="logo">
+            <p class="menu-heading">Future Map</p>
+            </div>
+            <div class="nav-bar">
+                <ul class="nav-list">
+                    <li><a href = #Home> Home</a></li>
+                    <li><a href = #About> About</a></li>
+                    <li><a href = #Features> Features</a></li>
+                    <li><a href = #Contact> Contact</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="about-div1" id="About">
+            <h3 class="about-heading">About us</h3>
+            <div class="about-div2">
+                <img class="about-img" src="images\about.png">
+                <p class="para-about">CareerCompass helps you explore career opportunities at every stage of your education and professional journey. Whether you’ve completed 10th grade, intermediate studies, or graduation, we provide clear, reliable information to help you make informed decisions about your future.
+                    <br><br>
+                            Our mission is to empower students and job seekers by offering guidance on higher education options, government jobs, software careers, and other pathways. With CareerCompass, you can discover the possibilities ahead and plan your next steps with confidence.
+                    <br><br>
+                            We believe that the right guidance can transform ambitions into achievements. Our platform is designed to be easy to use, regularly updated, and tailored to the unique needs of learners from diverse backgrounds. Let us be your trusted</p>
+            </div>
+        </div>
+
+        <div class="features" id="Features">
+            <h3 class="feature-heading">Find Your Next Step</h3>
+            <div class="featureset1">
+                <div class="feature-box">
+                    <a class="btn-pages" href="After10page.html">
+                    <button class="btn">
+                    <img src="images/10th-class.jpg" class="img1"><br>
+                    <p class="sub"> After 10th class</p>
+                    </button></a>
+                </div>
+                <div class="feature-box">
+                    <a class="btn-pages" href="After12th.html">
+                    <button class="btn">
+                    <img src="images/Intermediate.jpg" class="img2"><br>
+                    <p class="sub"> After 12th class</p>
+                    </button></a>
+                </div>
+                <div class="feature-box">
+                <a class="btn-pages" href="aftergraduation.html">
+                <button class="btn">
+                    <img src="images/Graduation.jpg" class="img3"><br>
+                    <p class="sub"> After Graduation</p>
+                    </button></a>
+                </div>
+            </div>
+            <div class="featureset2">
+                <div class="feature-box">
+                    <a class="btn-pages" href="software-job.html">
+                    <button class="btn">
+                    <img src="images/software-developer.webp" class="img4"><br>
+                    <p class="sub"> Looking for a Software Job</p>
+                    </button></a>
+                </div>
+                <div class="feature-box">
+                    <a class="btn-pages" href="governmentjob.html"> 
+                    <button class="btn">
+                    <img src="images/Government.jpg" class="img5"><br>
+                    <p class="sub"> Looking for a Government Job</p>
+                    </button></a>
+                </div>
+                <div class="feature-box">
+                    <a class="btn-pages" href="highergraduation.html">
+                    <button class="btn">
+                    <img src="images/Higher-Education.webp" class="img6"><br>
+                    <p class="sub"> Higher Education</p>
+                    </button></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="Contact-details" id="Contact">
+            <h3 class="Contact-heading">Contact Us</h3>
+            <form class="Contact-form" id="contactForm">
+                <label>Enter First Name</label>
+                <input type="text" id="firstname" name="firstname" placeholder="Enter first name" required><br><br>
+
+                <label>Enter Last Name</label>
+                <input type="text" id="lastname" name="lastname" placeholder="Enter last name" required><br><br>
+
+                <label>Enter Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter E-mail" required><br><br>
+
+                <label>Send Message</label>
+                <textarea id="message" placeholder="Enter Message" required></textarea><br><br>
+
+                <input type="submit" value="Submit" class="submit-button">
+            </form>
+        </div>
+
+        <div class="footer">
+            <p class="footer-text"> All rights Reservered @Muni</p>
+        </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-database-compat.js"></script>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
